@@ -1,6 +1,6 @@
 {
-  "name": "sleeping-owl/apist",
-  "description": "Package to provide api-like access to foreign sites based on html parsing",
+  "name": "shoman4eg/apist",
+  "description": "Package to provide api-like access to foreign sites based on html parsing. Updated version of sleeping-owl/apist",
   "license": "MIT",
   "type": "library",
   "keywords": [
