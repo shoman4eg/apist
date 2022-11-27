@@ -32,7 +32,7 @@ class Crawler extends SymfonyCrawler
     {
         $ar = $this->parents();
 
-        return new static($ar->getNode(0), $this->uri);
+        return new self($ar->getNode(0), $this->uri);
     }
 
     protected function parsePseudoClasses($selector)

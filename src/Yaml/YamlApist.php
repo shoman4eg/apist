@@ -22,6 +22,9 @@ class YamlApist extends Apist
     }
 
     /**
+     * @param mixed $name
+     * @param mixed $arguments
+     *
      * @return array
      *
      * @throws GuzzleException

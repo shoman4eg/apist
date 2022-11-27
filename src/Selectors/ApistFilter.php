@@ -180,7 +180,7 @@ class ApistFilter
     {
         $this->guardCrawler();
         $crawler = new Crawler();
-        $filter = new static($this->node, $this->method);
+        $filter = new self($this->node, $this->method);
         while (1) {
             $node = $filter->{$direction}();
             if (is_null($node)) {
